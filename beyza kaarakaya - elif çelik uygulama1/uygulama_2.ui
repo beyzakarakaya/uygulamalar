@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>979</width>
+    <height>523</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>900</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>ELBEY SİRKET KAYİT DEFTERİ</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="1" column="1">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="1">
+       <widget class="QTableWidget" name="tbl1">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="rowCount">
+         <number>40</number>
+        </property>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <column>
+         <property name="text">
+          <string>ID</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>marka</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>adet</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>fiyat</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>tarih</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>tur</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>depo</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label7">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label8">
+      <property name="text">
+       <string>ELBEY</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="lineEdit4"/>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="pushButton2">
+        <property name="text">
+         <string>güncelleme</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QPushButton" name="pushButton3">
+        <property name="text">
+         <string>silme</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label1">
+        <property name="text">
+         <string>malzemenin markas</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label2">
+        <property name="text">
+         <string>malzeme adedi</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label3">
+        <property name="text">
+         <string>adet fiyatı</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QRadioButton" name="radioButton2">
+        <property name="text">
+         <string>yerel</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="lineEdit2"/>
+      </item>
+      <item row="4" column="1">
+       <widget class="QRadioButton" name="radioButton1">
+        <property name="text">
+         <string>ithal</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="lineEdit3"/>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="pushButton1">
+        <property name="text">
+         <string>ekleme</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label4">
+        <property name="text">
+         <string>alınan tarih</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="lineEdit1"/>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label5">
+        <property name="text">
+         <string>malzeme türü</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label6">
+        <property name="text">
+         <string>depo sekli</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="lineEdit_5"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>979</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
